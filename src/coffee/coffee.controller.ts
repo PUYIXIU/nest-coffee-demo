@@ -20,13 +20,7 @@ import { UpdateCoffeeDto } from './dto/update-coffee.dto/update-coffee.dto';
 @Controller('coffee')
 export class CoffeeController {
 
-  constructor(private readonly coffeeService: CoffeeService){
-
-  }
-
-
-
-
+  constructor(private readonly coffeeService: CoffeeService){ }
 
   // 直接调用express库方法
   @Get('candy')
